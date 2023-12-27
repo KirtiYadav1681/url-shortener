@@ -25,7 +25,7 @@ Make sure you have the following installed on your machine:
 - Description: Log in an existing user.
 - Request Body: {"email": User's email, "password": User's password}
 ### Generate Short URL
-#### Endpoint: POST htt[://localhost:8000/shorten
+#### Endpoint: POST http://localhost:8000/shorten
 - Description: Generate a short URL for a given long URL.
 - Request Body: {"url": Long URL to be shortened}
 - Headers:
